@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-  base: './',
+  base: '/gta6-boxy/',
   server: {
     host: '127.0.0.1',
   },
