@@ -26,7 +26,7 @@ export class TitleScreen implements UiComponent {
   ) {
     this.el = el('div', 'title');
     this.el.hidden = true;
-    this.el.append(el('div', 'title-logo', 'Leonida'), el('div', 'title-sub', 'Vice City, Leonida'));
+    this.el.append(el('div', 'title-logo', 'SIG CITY'), el('div', 'title-sub', 'Vice City, Sig City'));
     const buttons = el('div', 'title-buttons');
     const newGame = el('button', 'menu-button', 'New Game');
     newGame.addEventListener('click', () => actions.newGame());

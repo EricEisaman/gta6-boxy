@@ -1,5 +1,5 @@
 /**
- * The six districts of Vice City, Leonida (SYSTEM_PROMPT §3). Rectangles are exact;
+ * The six districts of Vice City, Sig City (SYSTEM_PROMPT §3). Rectangles are exact;
  * +X is east, +Z is south, origin at the map center. Districts without a z range in
  * the spec use the natural neighbours' bounds.
  */

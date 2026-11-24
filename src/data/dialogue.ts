@@ -8,7 +8,7 @@ export const DIALOGUE = {
   m1_gate: [
     { speaker: 'Jason', text: 'Two years. You look good for two years.' },
     { speaker: 'Lucia', text: "Don't. Just drive." },
-    { speaker: 'Jason', text: 'Muscle car, full tank, no plates. Welcome back to Leonida.' },
+    { speaker: 'Jason', text: 'Muscle car, full tank, no plates. Welcome back to Sig City.' },
   ],
   m1_safehouse: [
     { speaker: 'Jason', text: "It's not much. Habana rent, Habana walls." },
@@ -50,7 +50,7 @@ export const DIALOGUE = {
   ],
   m5_done: [{ speaker: 'Ray Tillman', text: "You're still breathing. Around here that's a reference." }],
   m6_start: [
-    { speaker: 'Dominic Reyes', text: 'Dominic Reyes. Floor manager, Leonida Palms. I know where every dollar in this building sleeps.' },
+    { speaker: 'Dominic Reyes', text: 'Dominic Reyes. Floor manager, Sig City Palms. I know where every dollar in this building sleeps.' },
     { speaker: 'Dominic Reyes', text: 'Prove you can keep your head at a table. Walk out two grand up and we talk about something bigger.' },
     { speaker: 'Lucia', text: 'And if I lose?' },
     { speaker: 'Dominic Reyes', text: "Then you're just another tourist." },
@@ -72,7 +72,7 @@ export const DIALOGUE = {
   ],
   m8_end: [
     { speaker: 'Jason', text: 'Twenty-five thousand. And nobody followed us to the water.' },
-    { speaker: 'Lucia', text: 'Leonida looks better from out here.' },
+    { speaker: 'Lucia', text: 'Sig City looks better from out here.' },
     { speaker: 'Jason', text: 'Everything does.' },
   ],
   job_chopshop: [{ speaker: 'Manny Ochoa', text: "Board says what I'm paying double for today. Bring me one." }],

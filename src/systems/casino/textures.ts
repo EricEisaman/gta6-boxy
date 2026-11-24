@@ -344,7 +344,7 @@ export class SlotScreen {
     }
     ctx.fillStyle = '#ffd23f';
     ctx.font = `bold 20px ${FONT}`;
-    ctx.fillText(spinning ? 'GOOD LUCK' : 'LEONIDA PALMS SLOTS', this.w / 2, 14);
+    ctx.fillText(spinning ? 'GOOD LUCK' : 'SIG CITY PALMS SLOTS', this.w / 2, 14);
     ctx.fillStyle = '#35e6ff';
     ctx.font = `16px ${FONT}`;
     ctx.fillText('JACKPOT 500x  -  BET 10 / 50 / 100', this.w / 2, this.h - 14);

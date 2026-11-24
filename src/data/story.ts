@@ -42,7 +42,7 @@ export const STORY_MISSIONS: readonly StoryMissionDef[] = [
   { id: 'm3', name: 'Repo', contact: 'manny', unlockedAfter: 'm2', reward: 1500, repeatable: false, blurb: 'A sports coupe at a Vice Beach hotel has a new owner.' },
   { id: 'm4', name: 'Bad Debt', contact: 'manny', unlockedAfter: 'm3', reward: 800, repeatable: false, blurb: 'A debtor in Little Habana owes Manny. Collect.' },
   { id: 'm5', name: 'Mud Club', contact: 'ray', unlockedAfter: 'm4', reward: 2000, repeatable: false, blurb: 'Run a package out to the Gator Pit in Grassrivers.' },
-  { id: 'm6', name: 'High Roller', contact: 'dominic', unlockedAfter: 'm5', reward: 2500, repeatable: false, blurb: 'Meet the inside man at Leonida Palms. Win big.' },
+  { id: 'm6', name: 'High Roller', contact: 'dominic', unlockedAfter: 'm5', reward: 2500, repeatable: false, blurb: 'Meet the inside man at Sig City Palms. Win big.' },
   { id: 'm7', name: 'Heat', contact: 'dominic', unlockedAfter: 'm6', reward: 1000, repeatable: false, blurb: 'Find out how hard VCPD really hits back.' },
   { id: 'm8', name: 'The Score', contact: 'jason', unlockedAfter: 'm7', reward: 25000, repeatable: false, blurb: 'Vice Rocks Jewelers. Jason. One shot.' },
   { id: 'job_chopshop', name: 'Wanted Wheels', contact: 'manny', unlockedAfter: 'm8', reward: 3000, repeatable: true, blurb: "Bring Manny today's wanted ride." },

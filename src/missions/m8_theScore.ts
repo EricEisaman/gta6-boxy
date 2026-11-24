@@ -57,7 +57,7 @@ export const m8: MissionDef = {
         getaway = null;
       }),
       cutscene(sceneOrbit('m8_end', marina, dialogue('m8_end'))),
-      action((ctx) => ctx.game.ui?.card('custom', 'THE END — LEONIDA', ctx.fast ? MissionsConfig.cards.fastSeconds : 6)),
+      action((ctx) => ctx.game.ui?.card('custom', 'THE END — SIG CITY', ctx.fast ? MissionsConfig.cards.fastSeconds : 6)),
     ];
   },
 };

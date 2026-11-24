@@ -121,7 +121,7 @@ export const LANDMARKS: readonly LandmarkDef[] = [
   },
   {
     id: 'prison',
-    name: 'Leonida Penitentiary',
+    name: 'Sig City Penitentiary',
     kind: 'prison',
     district: 'portGellhorn',
     style: 'prison',
@@ -133,7 +133,7 @@ export const LANDMARKS: readonly LandmarkDef[] = [
   },
   {
     id: 'casino',
-    name: 'Leonida Palms',
+    name: 'Sig City Palms',
     kind: 'casino',
     district: 'downtown',
     style: 'casino',
@@ -214,7 +214,7 @@ export const LANDMARKS: readonly LandmarkDef[] = [
   },
   {
     id: 'bank',
-    name: 'Leonida Trust Bank',
+    name: 'Sig City Trust Bank',
     kind: 'bank',
     district: 'downtown',
     style: 'bank',

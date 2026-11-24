@@ -46,7 +46,7 @@ export class PauseMenu implements UiComponent {
     this.el = el('div', 'pause');
     this.el.hidden = true;
     const left = el('div', 'pause-left');
-    left.append(el('h1', 'menu-heading', 'Leonida'), el('div', 'menu-subheading', 'Paused'));
+    left.append(el('h1', 'menu-heading', 'SIG CITY'), el('div', 'menu-subheading', 'Paused'));
     const buttons = el('div', 'pause-buttons');
     const items: HTMLButtonElement[] = [
       this.button(buttons, 'Resume', () => {

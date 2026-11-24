@@ -4,7 +4,7 @@ import type { V3 } from '../../core/entities';
 export const CasinoConfig = {
   interiorId: 'casino',
   landmarkId: 'casino',
-  name: 'Leonida Palms',
+  name: 'Sig City Palms',
 
   /** Interior definition (local coordinates; heading 0 faces +Z). */
   spawnPoint: { x: 0, y: 0.05, z: 6 } as V3,

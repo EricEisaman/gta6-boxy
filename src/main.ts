@@ -15,6 +15,6 @@ boot().catch((err) => {
   console.error('[boot]', err);
   const el = document.createElement('div');
   el.className = 'hint';
-  el.textContent = `LEONIDA failed to start: ${err instanceof Error ? err.message : String(err)}`;
+  el.textContent = `SIG CITY failed to start: ${err instanceof Error ? err.message : String(err)}`;
   document.body.appendChild(el);
 });

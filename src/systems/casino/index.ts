@@ -82,7 +82,7 @@ export class CasinoSystem implements GameSystem, ICasinoPeer {
   private registerInterior(): void {
     const interiors = this.game.interiors;
     if (!interiors) {
-      console.warn('[casino] interiors system missing: Leonida Palms has no door');
+      console.warn('[casino] interiors system missing: Sig City Palms has no door');
       return;
     }
     const origin = interiors.framework.origin;
@@ -120,7 +120,7 @@ export class CasinoSystem implements GameSystem, ICasinoPeer {
 
   play(game: CasinoGame): void {
     if (this.game.state.interior !== CasinoConfig.interiorId) {
-      console.warn('[casino] play() ignored: player is not inside Leonida Palms');
+      console.warn('[casino] play() ignored: player is not inside Sig City Palms');
       return;
     }
     const station: StationId = game === 'blackjack' ? 'blackjackLow' : game;

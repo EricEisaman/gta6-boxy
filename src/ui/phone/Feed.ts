@@ -30,11 +30,11 @@ const CRIME_LINES: Record<string, string[]> = {
   carjack: ['bro just took someone\u2019s car with them still holding the keys', 'carjacking outside the waffle hut. the WAFFLE HUT.'],
   hit_ped: ['saw a car plough through a crosswalk. driver did NOT stop', 'pedestrians: 0. sedan: 1.'],
   kill_ped: ['there\u2019s a body on the sidewalk and traffic is just going around it', 'RIP to whoever that was on Ocean Drive'],
-  kill_cop: ['a cop got shot. every siren in Leonida is on', 'do NOT go downtown rn. cops are furious'],
+  kill_cop: ['a cop got shot. every siren in Sig City is on', 'do NOT go downtown rn. cops are furious'],
   explosion: ['a car just EXPLODED next to the marina lol', 'fireball on the highway, my uber is cancelled'],
 };
 
-const DEFAULT_LINES = ['something is going down in Leonida', 'sirens. so many sirens.'];
+const DEFAULT_LINES = ['something is going down in Sig City', 'sirens. so many sirens.'];
 
 /**
  * Parody social feed built from game events. Kept in memory only (not saved),
@@ -70,10 +70,10 @@ export class Feed {
         else this.post(`watched someone drop ${formatCash(-delta)} without blinking. rich people are weird`);
       }),
       ev.on('robbery:completed', ({ amount }) => this.post(`store on the corner just got emptied for like ${formatCash(amount)}. clerk hands still up`)),
-      ev.on('chopshop:sold', ({ archetypeId }) => this.post(`if you owned a ${archetypeId} in Leonida... you don't anymore`)),
+      ev.on('chopshop:sold', ({ archetypeId }) => this.post(`if you owned a ${archetypeId} in Sig City... you don't anymore`)),
       ev.on('mission:passed', () => this.post('heard some people just pulled off something big. no details. respect.')),
     );
-    this.post('welcome to Leonida. don\u2019t drink the canal water.');
+    this.post('welcome to Sig City. don\u2019t drink the canal water.');
   }
 
   post(text: string, handle = this.rng.pick(HANDLES)): void {

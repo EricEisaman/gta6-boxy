@@ -61,7 +61,7 @@ export const ROAD_LINES: readonly RoadLineDef[] = [
   { axis: 'x', at: HWY_S, from: HWY_W, to: HWY_E, kind: 'highway', name: 'Harbor Freeway' },
 
   // --- Main arteries ---
-  { axis: 'z', at: -20, from: HWY_N, to: HWY_S, kind: 'avenue', name: 'Leonida Avenue' },
+  { axis: 'z', at: -20, from: HWY_N, to: HWY_S, kind: 'avenue', name: 'Sigma Avenue' },
   { axis: 'x', at: 0, from: HWY_W, to: HWY_E, kind: 'avenue', name: 'Calle Ocho' },
   { axis: 'z', at: 160, from: -400, to: 300, kind: 'avenue', name: 'Palms Boulevard' },
 
