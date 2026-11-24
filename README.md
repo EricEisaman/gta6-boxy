@@ -1,4 +1,4 @@
-# LEONIDA
+# SIG City
 
 A GTA VI-style open-world crime sandbox that runs in the browser. Vice City, State of Leonida, rebuilt as a
 stylized low-poly city in Three.js with Rapier physics. Everything — buildings, cars, people, audio — is generated
